@@ -16,6 +16,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 16px;
+    margin-bottom: 120px;
 }
 .banner-info{
     text-align: center;
@@ -30,4 +31,35 @@ body{
 .banner-main-title{
     font-size: 72px;
     font-weight: 900;
+}
+/* offer section */
+.offer-section{
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+.offer-info{
+    text-align: center;
+    font-family: Inter;
+    margin-bottom: 48px;
+}
+.offer-info h1{
+    font-size: 88px;
+    font-weight: 700;
+    color: rgb(255,0,0);
+    margin-bottom: 48px;
+}
+.offer-info .mini-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(255,0,0);
+}
+.offer-info .sub-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(7, 2, 17);
+}
+.offer-img{
+    height: 500px;
+    border: 4px dashed gray;
 }
