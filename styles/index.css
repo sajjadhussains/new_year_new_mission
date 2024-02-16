@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+.banner{
+    margin: 0 auto;
+    width: 1320px;
+    height: 600px;
+    background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../resources/banner-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.banner-info{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+}
+.banner-mini-title{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.banner-main-title{
+    font-size: 72px;
+    font-weight: 900;
+}
