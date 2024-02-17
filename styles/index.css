@@ -209,7 +209,107 @@ body{
     font-weight: 700;
     margin-bottom: 16px;
 }
+/* holiday-section */
+.holiday-section{
+    width: 1320px;
+    height: 986px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.holiday-section .text-section{
+    height: 260px;
+    width: 1068px;
+    text-align: center;
+    margin-bottom: 67px;
+}
+.text-section .mini-title{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 16px;
+}
+.text-section .main-title{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+}
+.text-section .main-title span{
+    color:rgb(255, 0, 0);
+}
+.text-section .holiday-info{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
 
+.holiday-section .image-section{
+    height: 662px;
+    background-image: url('../resources/rectangle2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* background-size: cover; */
+    display: flex;
+    /* justify-content: space-between; */
+}
+.holiday-section .image-section .second{
+    background-image: url('../resources/rectangle1.png');
+    background-repeat: no-repeat;
+    width:428px;
+    height: 433px;
+    display: flex;
+    align-items: center;
+}
+.holiday-section .image-section .second div{
+    position:absolute;
+    left:50%;
+    z-index: 1;
+}
+/* gift offer section */
+.gift-section{
+    width:1320px;
+    margin:0 auto;
+    margin-top: 120px;
+}
+.gift-section .mini-title{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.gift-section h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+    }
+.gift-section .gift-info{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.gift-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gift-cards .card{
+    width:400px;
+    margin-bottom: 24px;
+}
+.gift-cards .card:hover{
+    box-shadow: 0 8px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    /* width:40%; */
+}
 
 /* Subscribe */
 .subscribe{
@@ -274,15 +374,21 @@ footer{
 }
 .footer-header{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 255px;
-    margin-right: 290px;
+    margin-left: 140px;
+    margin-right: 200px;
     padding-top: 120px;
+    padding-bottom: 49px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    
 }
 .social-media-icon{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 30px;
 }
 .social-media-icon img{
     margin: 10px;
@@ -292,8 +398,9 @@ footer{
     display: flex;
     justify-content: space-between;
     margin-top:98px;
-    margin-right: 120px;
-    margin-left: 255px;
+    margin-right: 230px;
+    margin-left: 140px;
     padding-bottom: 120px;
 }
+
 
